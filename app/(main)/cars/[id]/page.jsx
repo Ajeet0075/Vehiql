@@ -29,7 +29,7 @@ const CarPage = async({params}) => {
     const {id} = await params;
     const result = await getCarById(id);
 
-    if(!result.success){
+    if(!result.success || !result.data){
       notFound();
     }
 
