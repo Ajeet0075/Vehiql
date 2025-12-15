@@ -1,104 +1,94 @@
-Vehiql
-A full-stack car marketplace web application built with Next.js, Supabase, and AI-powered features.
+# Vehiql
 
+### AI-Powered Full-Stack Car Marketplace
 
+A full-stack car marketplace web application built with **Next.js**, **Supabase**, and **AI-powered features**.
 
-Features
-Authentication & Authorization
+---
 
-Custom login and signup pages with secure user authentication.
+## Features
 
-Role-based access control for admin and regular users.
+---
 
-Arcjet integration for rate limiting, bot protection, and Shield security.
+## Authentication & Authorization
+- Custom login and signup pages with secure user authentication
+- Role-based access control for admin and regular users
+- Arcjet integration for rate limiting, bot protection, and Shield security
 
+---
 
+## Admin Dashboard
+- Add, edit, and delete car listings
+- Manage user roles, working hours, and featured cars
+- View dashboard statistics and reservations
 
-Admin Dashboard
+---
 
-Add, edit, and delete car listings.
+## Car Listings & Search
+- Browse all cars with advanced filtering and sorting
+- AI-powered car search using Gemini API
+- Drag-and-drop search UI
+- Detailed car pages with images, descriptions, and specifications
 
-Manage user roles, working hours, and featured cars.
+---
 
-View dashboard statistics and reservations.
+## AI & Automation
+- AI Car Image Scan API for analyzing car images
+- Gemini API–powered intelligent search
+- EMI Calculator built using Create.xyz
 
+---
 
+## Test Drive Booking
+- Book test drives via a dedicated form
+- Manage reservations from the admin panel
 
-Car Listings & Search
+---
 
-Browse all cars with advanced filtering and sorting.
+## Waitlist & Landing Page
+- AI-powered waitlist form for early access
+- Modern, fully responsive landing page
 
-AI-powered car search using Gemini API.
+---
 
-Drag-and-drop search UI for an intuitive experience.
+## Backend & Database
+- Supabase PostgreSQL with real-time updates
+- Row-Level Security (RLS)
+- REST APIs for users, cars, and reservations
 
-Detailed car view pages including images, descriptions, and specifications.
+---
 
+## Frontend UI
+- Next.js App Router with SSR
+- Shadcn UI + Tailwind CSS
+- Drag-and-drop search experience
+- Featured cars carousel
 
+---
 
-AI & Automation
+## Security & Performance
+- Arcjet rate limiting and bot protection
+- SEO-optimized routing and SSR
+- Deployed on Vercel with CI/CD
 
-AI Car Image Scan API to process and analyze car images.
+---
 
-AI Search integrated with Gemini API.
+## Tech Stack
 
-EMI Calculator built using Create.xyz.
+**Frontend**
+- Next.js
+- React.js
+- Tailwind CSS
+- Shadcn UI
 
+**Backend**
+- Supabase (PostgreSQL, Auth, Storage)
+- Node.js APIs
 
+**AI & Integrations**
+- Gemini API
+- Create.xyz
+- Arcjet
 
-Test Drive Booking
-
-Book test drives through a dedicated form.
-
-Manage reservations in the admin panel.
-
-
-
-Waitlist & Landing Page
-
-AI-powered waitlist form for early access.
-
-Modern landing page with responsive design.
-
-
-
-Backend & Database
-
-Supabase real-time database with Row-Level Security.
-
-PostgreSQL data models for users, cars, bookings, and settings.
-
-REST APIs for car data, user management, and reservations.
-
-
-
-Frontend UI
-
-Next.js App Router for routing and server-side rendering.
-
-Shadcn UI components with Tailwind CSS styling.
-
-Drag-and-drop interface for searching cars.
-
-Featured cars carousel and responsive layouts.
-
-
-
-Security & Performance
-
-Arcjet rate limiting and bot protection on sensitive APIs.
-
-Optimized routing and SSR for SEO and performance.
-
-Deployment on Vercel with efficient CI/CD.
-
-
-
-Tech Stack
-Frontend: Next.js, React.js, Tailwind CSS, Shadcn UI
-
-Backend: Supabase (PostgreSQL, Auth, Storage), Node.js APIs
-
-AI & Integrations: Gemini API, Create.xyz, Arcjet
-
-Deployment: Vercel
+**Deployment**
+- Vercel
